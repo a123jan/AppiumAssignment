@@ -30,6 +30,6 @@ public class Assignment1 extends DevasevaBaseClass {
 	    String code=verifyCampaignsPage.getMassagecode().getText();
 		String[] eachcose = code.split(":");
 		System.out.println(code);
-		driver.launchApp();
+	
 }
 }
