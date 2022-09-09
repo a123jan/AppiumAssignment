@@ -23,10 +23,13 @@ public class Assignment1 extends DevasevaBaseClass {
 		Thread.sleep(5000);
 		driver.swipe(553, 1500, 553, 586,500);
 		verifyCampaignsPage.getBookASevaRsLink().click();
-		verifyCampaignsPage.getPhnotxtfield().sendKeys("8972328656");
+		verifyCampaignsPage.getPhnotxtfield().sendKeys("7892020861");
 		verifyCampaignsPage.getContinuebtn().click();
-		
+		driver.openNotifications();
+		Thread.sleep(5000);
+	    String code=verifyCampaignsPage.getMassagecode().getText();
+		String[] eachcose = code.split(":");
+		System.out.println(code);
+		driver.launchApp();
 }
-	
-
 }
