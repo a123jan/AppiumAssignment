@@ -3,7 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Assignment.Assignment2">
+      <class name="Assignment.Assignment1">
         <methods>
           <include name="closeApp"/>
           <include name="closeserver"/>
@@ -11,7 +11,7 @@
           <include name="campaignsTest"/>
           <include name="laundServer"/>
         </methods>
-      </class> <!-- Assignment.Assignment2 -->
+      </class> <!-- Assignment.Assignment1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
