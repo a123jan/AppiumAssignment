@@ -27,7 +27,7 @@ public class DevasevaBaseClass extends InstanceClass  {
 		Url = mobilePropertyFile.getDataFromProperty("url");
 		platformName = mobilePropertyFile.getDataFromProperty("PLATFORM_NAME");
 		platformVersion = mobilePropertyFile.getDataFromProperty("PLATFORM_VERSIONReal");
-		udid = mobilePropertyFile.getDataFromProperty("UDIDDevice");
+		//udid = mobilePropertyFile.getDataFromProperty("UDIDDevice");
 		timeout = mobilePropertyFile.getDataFromProperty("Timeouts");
 		time = javaUtility.convertStringToLong(timeout);
 	}
@@ -38,7 +38,7 @@ public class DevasevaBaseClass extends InstanceClass  {
 		dc1= new DesiredCapabilities();
 		dc1.setCapability(MobileCapabilityType.PLATFORM_NAME,platformName);
 		dc1.setCapability(MobileCapabilityType.PLATFORM_VERSION,platformVersion);
-		dc1.setCapability(MobileCapabilityType.UDID,udid);
+		dc1.setCapability(MobileCapabilityType.UDID,"x4soukivqw59pnjr");
 		dc1.setCapability("appPackage","com.devaseva.app");
 		dc1.setCapability("appActivity",".MainActivity");
 		dc1.setCapability(MobileCapabilityType.NO_RESET,true);
