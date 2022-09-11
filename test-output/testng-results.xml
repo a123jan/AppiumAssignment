@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-09T17:39:50 IST" name="Default suite" finished-at="2022-09-09T17:40:43 IST" duration-ms="52661">
+  <suite started-at="2022-09-10T23:00:28 IST" name="Default suite" finished-at="2022-09-10T23:02:10 IST" duration-ms="101838">
     <groups>
     </groups>
-    <test started-at="2022-09-09T17:39:50 IST" name="Default test" finished-at="2022-09-09T17:40:43 IST" duration-ms="52661">
+    <test started-at="2022-09-10T23:00:28 IST" name="Default test" finished-at="2022-09-10T23:02:10 IST" duration-ms="101838">
       <class name="Assignment.Assignment1">
-        <test-method is-config="true" signature="laundServer()[pri:0, instance:Assignment.Assignment1@77c2494c]" started-at="2022-09-09T17:39:50 IST" name="laundServer" finished-at="2022-09-09T17:39:50 IST" duration-ms="37" status="PASS">
+        <test-method is-config="true" signature="laundServer()[pri:0, instance:Assignment.Assignment1@f5958c9]" started-at="2022-09-10T23:00:28 IST" name="laundServer" finished-at="2022-09-10T23:00:28 IST" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- laundServer -->
-        <test-method is-config="true" signature="LaunchApp()[pri:0, instance:Assignment.Assignment1@77c2494c]" started-at="2022-09-09T17:39:51 IST" name="LaunchApp" finished-at="2022-09-09T17:40:00 IST" duration-ms="9870" status="PASS">
+        <test-method is-config="true" signature="LaunchApp()[pri:0, instance:Assignment.Assignment1@f5958c9]" started-at="2022-09-10T23:00:28 IST" name="LaunchApp" finished-at="2022-09-10T23:00:40 IST" duration-ms="11795" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchApp -->
-        <test-method signature="campaignsTest()[pri:0, instance:Assignment.Assignment1@77c2494c]" started-at="2022-09-09T17:40:00 IST" name="campaignsTest" finished-at="2022-09-09T17:40:43 IST" duration-ms="42660" status="PASS">
+        <test-method signature="campaignsTest()[pri:0, instance:Assignment.Assignment1@f5958c9]" started-at="2022-09-10T23:00:40 IST" name="campaignsTest" finished-at="2022-09-10T23:02:10 IST" duration-ms="89935" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- campaignsTest -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:Assignment.Assignment1@77c2494c]" started-at="2022-09-09T17:40:43 IST" name="closeApp" finished-at="2022-09-09T17:40:43 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:Assignment.Assignment1@f5958c9]" started-at="2022-09-10T23:02:10 IST" name="closeApp" finished-at="2022-09-10T23:02:10 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method is-config="true" signature="closeserver()[pri:0, instance:Assignment.Assignment1@77c2494c]" started-at="2022-09-09T17:40:43 IST" name="closeserver" finished-at="2022-09-09T17:40:43 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeserver()[pri:0, instance:Assignment.Assignment1@f5958c9]" started-at="2022-09-10T23:02:10 IST" name="closeserver" finished-at="2022-09-10T23:02:10 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeserver -->

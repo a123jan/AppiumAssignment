@@ -13,7 +13,7 @@ public class VerifyCampaignsPage {
 	private WebElement CampaignsLink;
 	@FindBy(xpath="//android.widget.Button[@content-desc=\"Book A Seva\"]")
 	private WebElement BookASevaLink;
-	@FindBy(xpath="//android.widget.Button[@content-desc=\"Book A Seva - Rs.2116.00\"]")
+	@FindBy(xpath="//android.widget.Button[contains(@content-desc,'Book A Seva')]")
 	private WebElement BookASevaRsLink;
 	@FindBy(xpath="//android.widget.EditText[@text='Phone Number']")
 	private WebElement phnotxtfield;
@@ -21,6 +21,8 @@ public class VerifyCampaignsPage {
 	private WebElement continuebtn;
 	@FindBy(xpath="//android.widget.TextView[contains(@text,'code is:')]")
 	private WebElement massagecode;
+	@FindBy(xpath="//android.view.View[@content-desc=\"Phone Verification Enter your 4 digit code here\"]/android.view.View[2]")
+	private WebElement Verificationcodebtn;
 	public VerifyCampaignsPage(AndroidDriver<WebElement> driver) {
 		PageFactory.initElements(driver,this);
 	}
@@ -51,6 +53,10 @@ public class VerifyCampaignsPage {
 
 	public WebElement getMassagecode() {
 		return massagecode;
+	}
+
+	public WebElement getVerificationcodebtn() {
+		return Verificationcodebtn;
 	}
 	
 }
